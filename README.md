@@ -40,8 +40,8 @@
 ## Модель
 В качестве итоговой модели я использовала CatBoost, гиперпараметры были подобраны с помощью optuna. 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+|             | F1            | Roc-auc       | Accuracy      |
+|-------------| ------------- | ------------- | ------------- |
+|  validation | 0.70          | 0.78          | 0.70          |
+|  test       | 0.72          | 0.80          | 0.72          |
 
